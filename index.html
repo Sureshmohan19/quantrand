@@ -95,14 +95,20 @@
         #about-contact h2 {
             color: #000000;
             margin-top: 0;
+            margin-bottom: 0.5em;  /* Add some space below the heading */
+        }
+        #about p {
+            margin-top: 0;  /* Remove top margin to align with contact info */
         }
         #contact {
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
+            justify-content: flex-start;
+            padding-top: 2.3em;  /* Adjust this value to align with the first line of about text */
         }
         #contact p {
-            margin: 2.5px 0;
+            margin: 1.5px 0;
+            line-height: 1.2;  /* Reduce line height for tighter spacing */
         }
         footer {
             color: #000000;
